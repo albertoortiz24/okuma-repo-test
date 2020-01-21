@@ -1,0 +1,401 @@
+<!DOCTYPE html5>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>OKUMA</title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="main.css">
+   </head>
+   <body>
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg okuma-menu">
+         <a class="navbar-brand" href="#"><a class="navbar-brand" href="index.html">
+            <img src="images/okuma-logo.png" height="50" alt="okuma-logo">
+         </a></a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto justify-content-center">
+               <li class="nav-item active">
+                  <a class="nav-link okuma-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link okuma-link" href="nosotros.html">Nosotros</a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link okuma-link dropdown-toggle" href="menu.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Menu
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="menu.html#sushi">Sushi</a>
+                     <a class="dropdown-item" href="menu.html#postres">Postres</a>
+                     <a class="dropdown-item" href="menu.html#bebidas">Bebidas</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link okuma-link" href="contactus.html">Contacto</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!--end of nav-->
+      <!--Cart Button-->
+      <div class="btn menu-btn sticky-top order-btn" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-cart-arrow-down"></i>
+      </div>
+      <div class="container">
+         <!--HERO SECTION-->
+         <div class="row">
+            <div class="col-md-12">
+               <img class="img-fluid" src="images/sushi-hero.png" alt="sushi image">
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-4 offset-md-4 d-none d-sm-block main-header shadow-sm">
+               <h1>MENU</h1>
+            </div>
+         </div>
+         <!--MENU BUTTONS-->
+         <div class="row mt-md-3 mb-md-3">
+            <div class="col-md-12">
+               <a href="#sushi" class="btn btn-outline-danger active active-btn my-2 menu-btn">Sushi</a>
+               <a href="#postres" class="btn btn-outline-danger menu-btn my-2">Postres</a>
+               <a href="#bebidas" class="btn  btn-outline-danger menu-btn my-2">Bebidas</a>
+            </div>
+         </div>
+         <!--MENU SUSHI ITEMS-->
+         <div class="album py-3 bg-light" id="sushi">
+            <div class="container">
+               <div class="row">
+                  <!--item 1-->
+                  <div class="col-md-3">
+                     <div class="ih-item square effect">
+                        <a href="#">
+                           <div class="img">
+                              <img src="images/filadelfia-empanizado.png" class="img-fluid " alt="smaple image">
+                           </div>
+                           <div class="info">
+                              <h3>$130/12 pz</h3>
+                              <p>Queso, camaron y verduras.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <!--item 2-->
+                  <div class="col-md-3">
+                     <div class="ih-item square effect">
+                        <a href="#">
+                           <div class="img">
+                              <img class="img-fluid" src="images/tampirol.png" alt="tampirol">
+                           </div>
+                           <div class="info">
+                              <h3>$98/6 pz</h3>
+                              <p>Queso empanizado, camaron.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <!--item 3-->
+                  <div class="col-md-3">
+                     <div class="ih-item square effect">
+                        <a href="#">
+                           <div class="img">
+                              <img class="img-fluid" src="images/masago.png" alt="masago">
+                           </div>
+                           <div class="info">
+                              <h3>$105/6 pz</h3>
+                              <p>Cangrejo, queso crema, masago naranja.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <!--item 4-->
+                  <div class="col-md-3">
+                     <div class="ih-item square effect">
+                        <a href="#">
+                           <div class="img">
+                              <img class="img-fluid" src="images/ajonjoli.png" alt="ajonjoli">
+                           </div>
+                           <div class="info">
+                              <h3>$130/6 pz</h3>
+                              <p>Arroz, surimi, pepino y ajonjoli.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <!--item 5-->
+                  <div class="col-md-3">
+                     <div class="ih-item square effect">
+                        <a href="#">
+                           <div class="img">
+                              <img class="img-fluid" src="images/salmon.png" alt="salmon">
+                           </div>
+                           <div class="info">
+                              <h3>$140/12 pz</h3>
+                              <p>Arroz, surimi, pepino y ajonjoli.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <!--item 6-->
+                  <div class="col-md-3">
+                     <div class="ih-item square effect">
+                        <a href="#">
+                           <div class="img">
+                              <img class="img-fluid" src="images/california.png" alt="california">
+                           </div>
+                           <div class="info">
+                              <h3>$129/12 pz</h3>
+                              <p>Pepino, cangrejo, alga Nori.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <!--item 7-->
+                  <div class="col-md-3">
+                     <div class="ih-item square effect">
+                        <a href="#">
+                           <div class="img">
+                              <img class="img-fluid" src="images/ebiroll.png" alt="ebi roll">
+                           </div>
+                           <div class="info">
+                              <h3>$135/12 pz</h3>
+                              <p>Cangrejo, queso, arroz.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+                  <!--item 8-->
+                  <div class="col-md-3">
+                     <div class="ih-item square effect">
+                        <a href="#">
+                           <div class="img">
+                              <img class="img-fluid" src="images/tricolor.png" alt="tricolor">
+                           </div>
+                           <div class="info">
+                              <h3>$120/12 pz</h3>
+                              <p>Pepino, surimi, queso, arroz.</p>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <!--end of row-->
+            </div>
+            <!--end of album-->
+         </div>
+         <!--PROMO section-->
+         <div class="row">
+         <div class="col-md-6 offset-md-3 mt-5 beverages">
+            <h2 class="text-center text-uppercase">Agrega a tu paquete</h2>
+         </div>
+      </div>
+         <div class="py-5 my-5 bg-light">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6">
+                     <div class="mb-4 shadow-lg p-2 mb-5 effect from_left_and_right">
+                        <img class="card-img-top" src="images/promo-banner-1.png" alt="bebidas">
+                     </div>
+                  </div>
+                  <!--item 2-->
+                  <div class="col-md-6">
+                     <div class="mb-4 shadow-lg p-2 mb-5">
+                        <img class="card-img-top" src="images/promo-banner-2.png" alt="bebidas">
+                     </div>
+                  </div>
+                  <!--end of the row-->
+               </div>
+            </div>
+            <!--MENU section-->
+            <div class="row">
+            <div class="col-md-6 offset-md-3 mt-md-3 mb-md-3 beverages" id="bebidas">
+               <h3 class="text-center text-uppercase">Bebidas</h3>
+            </div>
+         </div>
+            <div class="row">
+               <div class="col-md-6 p-5">
+                  <div class="menu-row">
+                     <h5 class="menu-title">Calpico</h5>
+                     <span class="menu-line"></span>
+                     <span class="menu-price">$60</span>
+                  </div>
+                  <div class="menu-row">
+                     <h5>Naranjada</h5>
+                     <span class="menu-line"></span>
+                     <span class="menu-price">$30</span>
+                  </div>
+               </div>
+               <div class="col-md-6 p-5">
+                  <div class="menu-row">
+                     <h5>Limonada</h5>
+                     <span class="menu-line"></span>
+                     <span class="menu-price">$30</span>
+                  </div>
+                  <div class="menu-row">
+                     <h5>Sake</h5>
+                     <span class="menu-line"></span>
+                     <span class="menu-price">$60</span>
+                  </div>
+               </div>
+            </div>
+            <!--MENU section-->
+            <div class="row">
+            <div class="col-md-6 offset-md-3 mt-md-3 mb-md-3 beverages" id="postres">
+               <h3 class="text-center text-uppercase">Postres</h3>
+            </div>
+         </div>
+            <div class="row">
+               <div class="col-md-6 p-5">
+                  <div class="menu-row">
+                     <h5 class="menu-title">Helado Tempura</h5>
+                     <span class="menu-line"></span>
+                     <span class="menu-price">$80</span>
+                  </div>
+               </div>
+               <div class="col-md-6 p-5">
+                  <div class="menu-row">
+                     <h5>Helado de lichis</h5>
+                     <span class="menu-line"></span>
+                     <span class="menu-price">$80</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--top button-->
+         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+         <script>
+         // When the user scrolls down 20px from the top of the document, show the button
+         window.onscroll = function() {scrollFunction()};
+         
+         function scrollFunction() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+         document.getElementById("myBtn").style.display = "block";
+         } else {
+         document.getElementById("myBtn").style.display = "none";
+         }
+         }
+         
+         // When the user clicks on the button, scroll to the top of the document
+         function topFunction() {
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
+         }
+         </script>
+         
+               </div>
+               <!--end of general container-->
+            </div>
+            <!--FOOTER-->
+            <footer class="footer col-md-12">
+               <div class=" col-md-6"><p class="social-text">Todos los derechos reservados. Designed by <a href="mailto:gokuTeam@gmail.com"> @gokuTeam</a></p>
+            </div>
+            <div class="col-md-6 social list-inline float-right">
+               <!--Social Media-->
+               <ul>
+                  <li class="list-inline-item"><a href="https://www.facebook.com/okumasushisocial"><img src="images/facebook.svg" alt="www.facebook.com" width="40" height="40"></a></li>
+                  <li class="list-inline-item"><img src="images/twitter.svg" alt="twitter.com" width="40" height="40"></li>
+                  <li class="list-inline-item"><img src="images/instagram.svg" alt="instagram.com" width="40" height="40"></li>
+               </ul>
+            </div>
+      </footer>
+      <!-- Modal -->
+         <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+               <div class="modal-content">
+                  <div class="modal-header modal-menu">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                     </button>
+                  </div>
+                  <div class="container">
+                     <table id="cart" class="table table-hover table-condensed">
+                        <thead>
+                           <tr>
+                              <th style="width:50%">Producto</th>
+                              <th style="width:10%">Precio</th>
+                              <th style="width:8%">Cant</th>
+                              <th style="width:22%" class="text-center">Subtotal</th>
+                              <th style="width:10%"></th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td data-th="Product">
+                                 <div class="row">
+                                    <div class="col-sm-2 hidden-xs">
+                                       <p>
+                                          Tampirol
+                                       </p>
+                                    </div>
+                                 </div>
+                              </td>
+                              <td data-th="Price">$98</td>
+                              <td data-th="Quantity">
+                                 <input type="number" class="form-control text-center" value="1">
+                              </td>
+                              <td data-th="Subtotal" class="text-center">140</td>
+                              <td class="actions" data-th="">
+                                 <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td data-th="Product">
+                                 <div class="row">
+                                    <div class="col-sm-2 hidden-xs">
+                                       <p>
+                                          Sake
+                                       </p>
+                                    </div>
+                                 </div>
+                              </td>
+                              <td data-th="Price">$80</td>
+                              <td data-th="Quantity">
+                                 <input type="number" class="form-control text-center quantity" value="1">
+                              </td>
+                              <td data-th="Subtotal" class="text-center">140</td>
+                              <td class="actions" data-th="">
+                                 <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td data-th="Product">
+                                 <div class="row">
+                                    <div class="col-sm-2 hidden-xs">
+                                       <p>
+                                          Helado frito
+                                       </p>
+                                    </div>
+                                 </div>
+                              </td>
+                              <td data-th="Price">$60</td>
+                              <td data-th="Quantity">
+                                 <input type="number" class="form-control text-center" value="1">
+                              </td>
+                              <td data-th="Subtotal" class="text-center">140</td>
+                              <td class="actions" data-th="">
+                                 <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
+                              </td>
+                           </tr>
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                           <td><a href="#" class="btn btn-danger">Continuar</a></td>
+                           <td colspan="2" class="hidden-xs"></td>
+                           <td class="hidden-xs text-center"><strong>Total $140</strong></td>
+                           <td><a href="#" class="btn btn-danger btn-block">Checkout</a></td>
+                        </tr>
+                        </tfoot>
+                     </table>
+                  </div>
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+   </body>
+</html>
